@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://s3.amazonaws.com/myadvobuck/static/libs/typed.min.js"></script>
+
+	
+</head>
+<body>
+<!--/Header Section-->	
+	<div class="header" id="About">
+		<div class="navbar" id="nav">
+			<div class="toggle"><a href="#"><i class="fa fa-bars menu"></i></a></div>
+			<a href="#" class="logo">PORTFOLIO</a>
+			<ul>
+				<li><a href="#About">About</a></li>
+				<li><a href="#service">Services</a></li>
+				<li><a href="#gallery">Gallery</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</div>
+	<div class="container">
+		<div class="bg-content">
+			<h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit..</h1>
+			<h2>I am  
+			<a href="" class="typewrite" data-period="2000" data-type='[  " Anuradha.",
+			"  UI Developer.", " Creative.", "Innovative." ]'>
+    		<span class="wrap"></span></a>
+			</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis a debitis ipsam non voluptas totam quia explicabo ut reprehenderit laudantium hic aliquid dolor cumque nihil officia. Sunt culpa accusantium explicabo molestiae consequatur. Quibusdam amet nobis dolore tempora fuga neque eaque at enim. Tempora ad suscipit odit consequatur obcaecati voluptas .</p>
+			<button>ABOUT</button>
+		</div>
+		</div>
+	</div>
+<!--/End header--->
+
+<!--/Service Section-->
+	<section class="service" id="service">
+		<div class="container">
+			<h1>Our Services</h1>
+			<div class="row">
+				<div class="oneThird ">
+					<h2>HTML5</h2>
+					<a href="#"><img src="image/tool1.png" class="tool" alt="toolpic"></a>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis a debitis ipsam non voluptas</p>
+					<div class="overlay">
+						<h2 class="text">HTML5</h2>
+					</div>
+				</div>
+				<div class="oneThird">
+					<h2>CSS3</h2>
+					<a href="#"><img src="image/tool2.png" alt="toolpic"></a>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis a debitis ipsam non voluptas</p>
+					<div class="overlay">
+						<h2 class="text">CSS3</h2>
+					</div>
+				</div>
+				<div class="oneThird">
+					<h2>JAVASCRIPT</h2>
+					<a href="#"><img src="image/tool1.png" alt="toolpic"></a>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis a debitis ipsam non voluptas</p>
+					<div class="overlay">
+						<h2 class="text">JAVASCRIPT</h2>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+<!--/End Service Section-->
+
+<!--/Gallery Section-->
+	<section class="gallery" id="gallery">
+		<h1>Gallery</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+				<div class="row">
+				  <div class="column">
+				    <img src="image/img1.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+				  </div>
+				  <div class="column">
+				    <img src="image/img2.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+				  </div>
+				  <div class="column">
+				    <img src="image/img3.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+				  </div>
+				  <div class="column">
+				    <img src="image/img4.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+				  </div>
+				   <div class="column">
+				    <img src="image/img1.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+				  </div>
+				  <div class="column">
+				    <img src="image/img2.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+				  </div>
+			</div>
+			<div class="row">
+				  <div class="column">
+				    <img src="image/img1.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+				  </div>
+				  <div class="column">
+				    <img src="image/img2.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+				  </div>
+				  <div class="column">
+				    <img src="image/img3.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+				  </div>
+				  <div class="column">
+				    <img src="image/img4.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+				  </div>
+				   <div class="column">
+				    <img src="image/img1.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+				  </div>
+				  <div class="column">
+				    <img src="image/img2.jpg" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+				  </div>
+			</div>
+
+
+				<div id="myModal" class="modal">
+				  <span class="close cursor" onclick="closeModal()">&times;</span>
+				  <div class="modal-content">
+
+				    <div class="mySlides">
+				      <div class="numbertext">1 / 4</div>
+				      <img src="image/img1.jpg" style="width:100%">
+				    </div>
+
+				    <div class="mySlides">
+				      <div class="numbertext">2 / 4</div>
+				      <img src="image/img2.jpg" style="width:100%">
+				    </div>
+				    <div class="mySlides">
+				      <div class="numbertext">1 / 4</div>
+				      <img src="image/img3.jpg" style="width:100%">
+				    </div>
+				    <div class="mySlides">
+				      <div class="numbertext">2 / 4</div>
+				      <img src="image/img4.jpg" style="width:100%">
+				    </div>
+				    <div class="mySlides">
+				      <div class="numbertext">3 / 4</div>
+				      <img src="image/img1.jpg" style="width:100%">
+				    </div>		    
+				    <div class="mySlides">
+				      <div class="numbertext">4 / 4</div>
+				      <img src="image/img2.jpg" style="width:100%">
+				    </div>			    
+				    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+				    <div class="caption-container">
+				      <p id="caption"></p>
+				    </div>
+
+				    <div class="column">
+				      <img class="demo cursor" src="image/img1.jpg" style="width:100%" onclick="currentSlide(1)" alt="Nature and sunrise">
+				    </div>
+				    <div class="column">
+				      <img class="demo cursor" src="image/img2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Snow">
+				    </div>
+				    <div class="column">
+				      <img class="demo cursor" src="image/img3.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+				    </div>
+				    <div class="column">
+				      <img class="demo cursor" src="image/img4.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+				    </div>
+				    <div class="column">
+				      <img class="demo cursor" src="image/img1.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+				    </div>
+				    <div class="column">
+				      <img class="demo cursor" src="image/img2.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+				    </div>
+				  </div>
+				</div>
+			</div>
+	</section>
+<!--/End Gallery Section-->
+
+<!--/Service Section-->
+	<section class="contact" id="contact">
+			<h1>Contact</h1>
+			<div class="login-page">
+				<div class="form">
+					<form class="register_form">
+						<input type="text" placeholder="User Name"/>
+						<input type="text" placeholder="Password"/>
+						<input type="text" placeholder="Email Id"/>
+						<button><b>Create</b></button>
+						<p class="message">Already Registerd?<a href="#">login</a></p>
+					</form>
+
+					<form class="login-form">
+						<input type="text" placeholder="User Name"/>
+						<input type="password" placeholder="password"/>
+						<button><b>login</b></button>
+						<p class="message">Not Registerd?<a href="#">Register</a></p>
+					</form>
+				</div>
+			</div>
+	</section>	
+<!--/End Contact Section-->
+
+<!--/Footer Section-->
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="policy">
+					<p>Design & Developer by <a href="#">Anuradha</a></p>
+					<p>Email:<a href="#">anuradha.93jun@gmail.com</a></p>
+					<p>Mobile:<a href="#">8755014318</a></p>
+				</div>
+				<div class="socialIcon">
+					<a href="#" class="facebook"><i class="fa fa-instagram"></i></a>
+					<a href="https://github.com/anuradhajun" target="_blank" class="facebook"><i class="fa fa-github"></i></a>
+		  			<a href="#" class="twitter"><i class="fa fa-facebook"></i></a> 
+		 	 		<a href="#" class="google"><i class="fa fa-twitter"></i></a> 
+		 	 		<a href="#" class="linkedin"><i class="fa fa-google-plus"></i></a>
+				</div>
+			</div>
+		</div>
+	</footer>
+<!--/End Footer Section-->
+
+
+
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>	
+<script>
+	//1. function to user when click the login form link
+			$(document).ready(function(){
+				$('.menu').click(function(){
+					$('ul').toggleClass('active');
+				});
+			});
+		$('.message a').click(function() {
+			$('form').animate({"height":"toggle", "opacity":"toggle"}, "slow");
+		});
+
+
+	//2. Gallery image slider when use click on image (index box)
+			function openModal() {
+			  document.getElementById('myModal').style.display = "block";
+			}
+			function closeModal() {
+			  document.getElementById('myModal').style.display = "none";
+			}
+			var slideIndex = 1;
+			showSlides(slideIndex);
+
+			function plusSlides(n) {
+			  showSlides(slideIndex += n);
+			}
+
+			function currentSlide(n) {
+			  showSlides(slideIndex = n);
+			}
+
+			function showSlides(n) {
+			  var i;
+			  var slides = document.getElementsByClassName("mySlides");
+			  var dots = document.getElementsByClassName("demo");
+			  var captionText = document.getElementById("caption");
+			  if (n > slides.length) {slideIndex = 1}
+			  if (n < 1) {slideIndex = slides.length}
+			  for (i = 0; i < slides.length; i++) {
+			      slides[i].style.display = "none";
+			  }
+			  for (i = 0; i < dots.length; i++) {
+			      dots[i].className = dots[i].className.replace(" active", "");
+			  }
+			  slides[slideIndex-1].style.display = "block";
+			  dots[slideIndex-1].className += " active";
+			  captionText.innerHTML = dots[slideIndex-1].alt;
+			}
+
+
+	//3. Automatic type writer effect for text on leanding page
+			var TxtType = function(el, toRotate, period) {
+		        this.toRotate = toRotate;
+		        this.el = el;
+		        this.loopNum = 0;
+		        this.period = parseInt(period, 10) || 2000;
+		        this.txt = '';
+		        this.tick();
+		        this.isDeleting = false;
+		    };
+
+		    TxtType.prototype.tick = function() {
+		        var i = this.loopNum % this.toRotate.length;
+		        var fullTxt = this.toRotate[i];
+
+		        if (this.isDeleting) {
+		        this.txt = fullTxt.substring(0, this.txt.length - 1);
+		        } else {
+		        this.txt = fullTxt.substring(0, this.txt.length + 1);
+		        }
+
+		        this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
+		        var that = this;
+		        var delta = 200 - Math.random() * 100;
+
+		        if (this.isDeleting) { delta /= 2; }
+
+		        if (!this.isDeleting && this.txt === fullTxt) {
+		        delta = this.period;
+		        this.isDeleting = true;
+		        } else if (this.isDeleting && this.txt === '') {
+		        this.isDeleting = false;
+		        this.loopNum++;
+		        delta = 500;
+		        }
+
+		        setTimeout(function() {
+		        that.tick();
+		        }, delta);
+		    };
+
+		    window.onload = function() {
+		        var elements = document.getElementsByClassName('typewrite');
+		        for (var i=0; i<elements.length; i++) {
+		            var toRotate = elements[i].getAttribute('data-type');
+		            var period = elements[i].getAttribute('data-period');
+		            if (toRotate) {
+		              new TxtType(elements[i], JSON.parse(toRotate), period);
+		            }
+		        }
+		        // INJECT CSS
+		        var css = document.createElement("style");
+		        css.type = "text/css";
+		        css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+		        document.body.appendChild(css);
+		    };
+
+	//4. onscroll header
+		var nav = document.getElementById('nav');
+		var x = document.getElementsByClassName('logo');
+		var y = document.getElementsByClassName('navbar');
+
+		window.onscroll = function(){
+
+			if (window.pageYOffset >20) {
+
+				nav.style.background = "#4a4848";
+				nav.style.boxShadow = "2px 2px 8px grey";
+				nav.style.borderTop = "3px solid orange";
+				nav.style.color = "#fff"
+				x.style.display = "none";
+				y.style.color = "white";
+
+
+			}else{
+				nav.style.background = "transparent";
+				nav.style.boxShadow = "none";
+				nav.style.borderTop = "none";
+				x.style.display = "none";
+			}
+		}
+</script>
+
+
+</body>
+</html>
